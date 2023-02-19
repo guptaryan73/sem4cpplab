@@ -20,9 +20,10 @@ int main ()
  }
  for (int i = 1; i <= n; i++)
  {
- cout<<"the name is "<< star.name[i]<<endl<<"and the roll number is "<<star.rollno[i];
- return 0;
+ cout<<"the name is "<< star.name[i]<<" and the roll number is "<<star.rollno[i]<<endl;
  }
+ return 0;
+ 
  
  
 }
